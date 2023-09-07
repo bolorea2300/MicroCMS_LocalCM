@@ -3,6 +3,8 @@ import axios from 'axios'
 
 const base = 'https://localcm.com'
 const url = 'https://jkdjxkkoyw.microcms.io/api/v1/article'
+const image =
+  'https://lh3.googleusercontent.com/d/11Wsv4m2919fkOM5ilEVPTabvcvCwCaoE'
 const site_name = 'ろーこま!'
 
 export default {
@@ -29,6 +31,11 @@ export default {
         content: '',
       },
       { hid: 'og:title', property: 'og:title', content: site_name },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: image,
+      },
       {
         hid: 'og:description',
         property: 'og:description',

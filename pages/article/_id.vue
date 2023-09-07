@@ -87,6 +87,11 @@ export default {
       title: this.data.title,
       meta: [
         {
+          hid: 'og:title',
+          property: 'og:title',
+          content: this.data.title + ' | ろ～こま!',
+        },
+        {
           hid: 'description',
           property: 'description',
           content: this.data.description,
