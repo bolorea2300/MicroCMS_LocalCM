@@ -8,7 +8,7 @@ const site_name = 'ろーこま!'
 export default {
   head: {
     titleTemplate: '%s | ' + site_name,
-    title: 'ローカルCM',
+    title: 'ろ～こま!',
     htmlAttrs: {
       lang: 'ja',
     },

@@ -90,7 +90,7 @@
     <v-app-bar app color="deep-purple accent-4" dark>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>ローカルCMデータベース</v-toolbar-title>
+      <v-toolbar-title>ろ～こま!</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -105,7 +105,7 @@
 
     <v-footer padless>
       <v-col class="text-center" cols="12">
-        {{ new Date().getFullYear() }} — <strong>ローカルCMデータベース</strong>
+        {{ new Date().getFullYear() }} — <strong>ろ～こま!</strong>
       </v-col>
     </v-footer>
 
